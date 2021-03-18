@@ -1,3 +1,6 @@
+package frazione;
+import util.MyMath;
+
 /**
  * Classe di test
  * @author Fondamenti di Informatica T-2

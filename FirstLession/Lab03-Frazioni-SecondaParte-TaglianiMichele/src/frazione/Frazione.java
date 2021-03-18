@@ -1,3 +1,6 @@
+package frazione;
+import util.MyMath;
+
 /**
  * Frazione come tipo di dato astratto (ADT)
  * 

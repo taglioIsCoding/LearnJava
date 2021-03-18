@@ -1,3 +1,4 @@
+package frazione;
 /**
  * Classe di test
  * @author Fondamenti di Informatica T-2
