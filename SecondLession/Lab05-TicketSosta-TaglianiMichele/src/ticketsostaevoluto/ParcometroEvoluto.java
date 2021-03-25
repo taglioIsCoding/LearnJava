@@ -20,12 +20,16 @@ public class ParcometroEvoluto {
 		int days = (int) durataSosta.toDaysPart();
 		
 		if(days == 0) {
-			costo = calcolaCosto(this.tariffe[inizio.getDayOfWeek().ordinal()].getTariffaOraria(), inizio.toLocalTime(), fine.toLocalTime(), inizio.getDayOfWeek().ordinal())  - (this.tariffe[inizio.getDayOfWeek().ordinal()].getTariffaOraria() / 60) * this.tariffe[inizio.getDayOfWeek().ordinal()].getMinutiFranchigia();;
+			costo = calcolaCosto(this.tariffe[inizio.getDayOfWeek().ordinal()].getTariffaOraria(), inizio.toLocalTime(), fine.toLocalTime(), inizio.getDayOfWeek().ordinal())  
+					- (this.tariffe[inizio.getDayOfWeek().ordinal()].getTariffaOraria() / 60) * this.tariffe[inizio.getDayOfWeek().ordinal()].getMinutiFranchigia();;
 				
 		}else{
-			costo = calcolaCosto(this.tariffe[inizio.getDayOfWeek().ordinal()].getTariffaOraria(), inizio.toLocalTime() , LocalTime.of(23, 59, 59), inizio.getDayOfWeek().ordinal()) - (this.tariffe[inizio.getDayOfWeek().ordinal()].getTariffaOraria() / 60) * this.tariffe[inizio.getDayOfWeek().ordinal()].getMinutiFranchigia();
+			costo = calcolaCosto(this.tariffe[inizio.getDayOfWeek().ordinal()].getTariffaOraria(), inizio.toLocalTime() , LocalTime.of(23, 59, 59), inizio.getDayOfWeek().ordinal()) 
+					- (this.tariffe[inizio.getDayOfWeek().ordinal()].getTariffaOraria() / 60) * this.tariffe[inizio.getDayOfWeek().ordinal()].getMinutiFranchigia();
+			costo += this.tariffe[inizio.getDayOfWeek().ordinal()].getTariffaOraria()/60;
 			for(int i = 1; i < days ; i++) {
 				costo += calcolaCosto(this.tariffe[(inizio.getDayOfWeek().ordinal() + i) % 7].getTariffaOraria(), LocalTime.of(0, 0), LocalTime.of(23,59, 59), (inizio.getDayOfWeek().ordinal() + i) % 7);
+				costo += this.tariffe[(inizio.getDayOfWeek().ordinal() + i) % 7].getTariffaOraria()/60;
 			}
 			costo += calcolaCosto(this.tariffe[(inizio.getDayOfWeek().ordinal() + (int)days) % 7].getTariffaOraria(), LocalTime.of(0, 0), fine.toLocalTime(), (inizio.getDayOfWeek().ordinal() + (int)days) % 7);
 		}
