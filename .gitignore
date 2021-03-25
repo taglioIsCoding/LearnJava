@@ -1,4 +1,10 @@
 .metadata
+bin/
+tmp/
+local.properties
+
+# Java annotation processor (APT)
+.factorypath
 
 # OS
 .DS_Store
