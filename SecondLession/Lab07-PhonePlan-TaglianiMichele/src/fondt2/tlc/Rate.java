@@ -39,7 +39,7 @@ public class Rate {
 	
 	public double getCallCost(PhoneCall call) {
 		Duration duration = Duration.between(call.getStart(), call.getEnd());
-		
+		 
 		int intervall = (int)Math.ceil((double)duration.toMillis()/this.intervalInMillis);
 		
 		for(Band band: this.bands) {
@@ -119,7 +119,7 @@ public class Rate {
             	return false;
             }
         }  
-		
+
 		return true;
 	}
 }
