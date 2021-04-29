@@ -14,7 +14,7 @@ import ui.filters.editors.FilterEditorFactory;
 import utils.*;
 
 public class MediaView {
-
+	
 	private MediaController myMediaController = null;
 
 	public MediaView() {
