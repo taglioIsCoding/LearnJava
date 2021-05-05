@@ -5,6 +5,7 @@ local.properties
 
 # Java annotation processor (APT)
 .factorypath
+javafx-sdk-16/
 
 # OS
 .DS_Store
