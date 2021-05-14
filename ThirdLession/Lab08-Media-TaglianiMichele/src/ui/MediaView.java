@@ -3,7 +3,7 @@ package ui;
 import java.util.Arrays;
 
 import media.Media;
-import media.MediaController;
+import controller.MediaController;
 import media.Type;
 import media.collection.MediaCollection;
 import media.filters.Filter;
@@ -15,7 +15,7 @@ import utils.*;
 
 public class MediaView {
 	
-	private MediaController myMediaController = null;
+	private controller.MediaController myMediaController = null;
 
 	public MediaView() {
 		myMediaController = new MediaController();
