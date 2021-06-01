@@ -1,0 +1,11 @@
+POSITIVO: la principessa Catlyn : una principessa bionda ma molto sola
+POSITIVO: il principe William : un principe alto e nobile, sempre in sella al fido Alfius, il suo cavallo bianco
+POSITIVO: la principessa Rapunzel : una principessa dai lunghi capelli dorati molto coraggiosa
+POSITIVO: il ladro Eugene : un giovane ladro coraggioso e impulsivo
+POSITIVO: il Gruffalò : il mostro buono, impavido e molto coraggioso
+NEGATIVO: Urcus : un orco molto cattivo e feroce
+NEGATIVO: Arfelius : un drago enorme e feroce 
+NEGATIVO: Gothel : donna malvagia, astuta, egoista e vanitosa
+NEGATIVO: Capitan Uncino: il meschino, subdolo e spietato capitano, con un uncino al posto della mano
+NEGATIVO: Frollo: il temibile e crudele maggiordomo da occhi piccoli, sguardo imperturbabile, e sorriso beffardo
+NEGATIVO: Ursula: l'orrenda donna-polipo, grassa, brizzolata e viola
