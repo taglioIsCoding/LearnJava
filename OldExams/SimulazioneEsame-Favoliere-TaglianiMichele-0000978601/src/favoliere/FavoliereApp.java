@@ -32,7 +32,6 @@ public class FavoliereApp extends Application {
 		Scene scene = new Scene(mainPanel, 600, 400, Color.YELLOW);
 		stage.setScene(scene);
 		stage.show();
-
 	}
 
 	public static void main(String[] args) {

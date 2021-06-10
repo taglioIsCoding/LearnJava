@@ -39,6 +39,7 @@ public class MyController extends BaseController {
 			loader.loadAllItems(baseReader);
 		}
 		catch (IOException e) {
+			System.out.println(e);
 			Controller.alert("Errore irrecuperabile", "Errore di I/O nella lettura del file " + filename, "Addio");
 			System.exit(1);
 		} 
