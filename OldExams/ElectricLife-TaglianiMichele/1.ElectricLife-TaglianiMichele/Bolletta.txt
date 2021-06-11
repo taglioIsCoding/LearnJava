@@ -1,0 +1,14 @@
+===========================================================
+Electric Life - L'energia che illumina!
+Bolletta del 11 giugno 2021
+-----------------------------------------------------------
+Tariffa CASA CLASSIC, Tariffa CASA CLASSIC, €30.0/mese per250 KWh, poi €0.24/KWh
+Consumo KWh   222
+-----------------------------------------------------------
+Dettaglio importi:
+Accise                         €    1,63
+Iva                            €    3,16
+Quota Fissa                    €   30,00
+Costo energia extra            €    0,00
+Totale                         €   34,80
+===========================================================
