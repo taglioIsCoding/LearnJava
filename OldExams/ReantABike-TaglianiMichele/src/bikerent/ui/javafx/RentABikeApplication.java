@@ -27,9 +27,9 @@ public class RentABikeApplication extends Application {
 			System.exit(1);
 		}
 		stage.setTitle("BikeRent - Move yourself!");
-		RentABikePane root = new RentABikePane(controller);
+		BikeRentPane root = new BikeRentPane(controller);
 		
-		Scene scene = new Scene(root, 570, 100, Color.ALICEBLUE);
+		Scene scene = new Scene(root, 570, 200, Color.ALICEBLUE);
 		stage.setScene(scene);
 		stage.show();
 	}
