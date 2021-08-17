@@ -1,0 +1,6 @@
+Roberto, M, 1994-04-24, capelli neri, occhi castani, 1.78, 61, Bologna, BO,Emilia-Romagna
+Armando, M, 1997-08-01, capelli castani, occhi castani, 1.71, 65, Parma, PR,Emilia-Romagna
+Eufrasio, M, 1993-10-30, capelli biondi, occhi azzurri, 1.82, 66, Firenze, FI, Toscana
+Anna, F, 1996-06-18, capelli biondi, occhi azzurri, 1.70, 60, Imola, BO, Emilia-Romagna
+Ludovica, F, 1992-10-14, capelli neri, occhi castani,	1.75, 51, Bologna, BO,Emilia-Romagna
+Elena, F, 1999-04-10, capelli neri, occhi neri,	1.65, 57, Modena, MO,Emilia-Romagna

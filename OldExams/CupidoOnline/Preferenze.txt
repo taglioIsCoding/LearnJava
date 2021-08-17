@@ -1,0 +1,5 @@
+Roberto, F, 20-25, Bilancia, capelli biondi, occhi -, 1.70, 58, Bologna, BO, Emilia-Romagna
+Armando, F, 17-25, -, capelli -, occhi -, -, -, Parma, PR, Emilia-Romagna
+Anna, 	 M, 20-29, Gemelli, capelli biondi, occhi azzurri, 1.70, 58, Imola, BO, Emilia-Romagna
+Ludovica, M, 24-35, -, capelli -, occhi -, 1.80, -, Bologna, BO, Emilia-Romagna
+Elena, 	 M, 18-23, -, capelli neri, occhi azzurri, 1.75, 58, Modena, MO, Emilia-Romagna

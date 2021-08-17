@@ -1,0 +1,2 @@
+Tentativi = 10
+Lunghezza combinazione = 4
